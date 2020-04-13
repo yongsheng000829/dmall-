@@ -1,0 +1,212 @@
+div,p,ul,ol,li,dl,dt,dd,form,table,h1,h2,h3,h4,h5,h6,input,select,textarea,span,strong,em,b,i,u,a,img,*{padding:0;margin:0;box-sizing: border-box}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+body { font-family: "宋体"; font-size: 12px;  color: #000; background-color: #fff; }
+ul,ol,li { list-style: none; }
+h1,h2,h3,h4,h5,h6{ font-size: 14px;}
+img{ border: none;}
+table{border-collapse:collapse;}
+img,input,textarea,select,output{ vertical-align: middle;}
+a { background: transparent; text-decoration: none; color: #333; }
+a:hover{  color: #006699;}
+.clear{ clear:both; height: 0; width: 0; overflow: hidden;}
+body,html{ height:100%;width:100%;}
+html,body{
+    width: 100%;
+    height: 100%;
+    outline:0 none !important;
+    // text-decoration: none;
+}
+.fristbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+    }
+.foot{
+    width: 100%;
+    height: 50px;
+}
+.addressload{
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+}
+.logo{
+    width: 130px;
+    height: 95px;
+    position: fixed;
+    top:12%;
+    left: 20%;
+    transform: translate(30%,10%);
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.gpslog{
+    width: 130px;
+    height: 120px;
+    position: fixed;
+    top:35%;
+    left: 20%;
+    transform: translate(30%,10%);
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.textgps{
+    width: 100%;
+    text-align: center;
+    color: #666;
+    position: fixed;
+    bottom: 30%;
+    left: 25%;
+    transform: translate(-23%,13%);
+}
+.small{
+    width: 100%;
+    color: #ff7226;
+    position: fixed;
+    bottom: 10%;
+    left: 25%;
+    transform: translate(-23%,13%);
+    span{
+        display: inline-block;
+        margin-left: 3px;
+        font-size: 11px;
+    }
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    span{
+        flex: 1;
+        display: block;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    border-top:0.5px solid #ccc;
+    a{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        &.router-link-exact-active {
+            color: #fe3113;
+          }
+    }
+}
+.swiperbox{
+    width: 100%;
+    height: 150px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.lun{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.ul{
+   width: 20%;
+   height: 50%;
+   li{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+      .imgs{
+       margin-top: 3px;
+       width: 50px;
+       height: 40px;
+       border-radius: 5px;
+       overflow: hidden;
+       
+       img{
+        width: 100%;
+        height: 100%;
+        }       
+       }  
+       span{
+           font-size: 10px;
+       } 
+   }
+}
+
+.typebox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .ipt{
+        width: 97%;
+        height: 30px;
+        border:1px solid #ccc;
+        border-radius: 20px;
+        background: #eee;
+        outline: none;
+        border:none;
+        padding-left: 20px;
+        color: #ddd;
+        margin: 5px 5px;
+    }
+}
+.shoptype{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+.left{
+    width: 25%;
+    height: 100%;
+    background: #EEE;
+    span{
+        display: inline-block;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        font-size: 14px;
+        color: #666;
+    }
+}
+.right{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    .top{
+        width: 100%;
+        height: 30px;
+        background: #EEE;
+        border-bottom: 1px solid #ccc;
+        line-height: 30px;
+        span{
+            margin-left: 10px;
+            color: #666;
+            height: 30px;
+            // display: inline-block;
+        }
+    }
+    .btm{
+        width: 100%;
+        overflow: auto;
+    }
+
+}
+.active{
+    background: #fff;
+}
